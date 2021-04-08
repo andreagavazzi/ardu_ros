@@ -1,7 +1,9 @@
 # ardu_ros
-My sketches for Arduino and ROS
+My sketches for Arduino and ROS 
 
-Run rosserial to enable the interface to Arduino
+Rosserial is a protocol for wrapping standard ROS serialized messages and multiplexing multiple topics and services over a character device such as a serial port or network socket. Source: [https://github.com/ros-drivers/rosserial.git](https://github.com/ros-drivers/rosserial.git)
+
+Quick start:
 ```
 rosrun rosserial_python serial_node.py /dev/ttyUSB0
 ```
